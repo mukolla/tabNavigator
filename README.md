@@ -4,8 +4,9 @@ jquery
 jQuery plugins - tabNavigator
 
 How to use:
-______________________
+-----------
 
+```
 <div id="wrapper">
 	<div id="navigation">
 		<ul class="nav-menu">
@@ -19,11 +20,14 @@ ______________________
 		<div class="nav-tab">#2</div>
 	</div>
 </div>
+```
 
 
+```
 $('#navigation').tabNavigator({
 	'tabName':'nav-tab', // Единсветнный обязательнный параметр. <div class="nav-tab">#1</div> 
 	'menuActiveClass':'nav-menu-active', // имя класса который может быть добавлен к выбраному елементу меню
 	'tabActiveClass':'nav-tab-active', // имя класса который может быть добавлен к активному Табу
 	'startActive':'2' // Изначально активный таб. Нумерация с начинаетс с  - "0"
 });
+```
