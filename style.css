@@ -1,0 +1,34 @@
+.nav-tab {
+	display: none;
+}
+
+.nav-tab-active {
+	display: block;
+}
+
+
+#navigation ul {
+	text-align: right;
+	list-style-type: none;
+}
+
+#navigation li {
+	display: inline;
+	padding: 0 10px;
+	margin-right: 5px;
+	background-color: #777;
+}
+
+#navigation li.nav-menu-active {
+	border: 1px solid red;
+}
+
+#navigation li:hover {
+	background-color: #DD7C7C;
+}
+
+#content div {
+	padding: 5px;
+	border: 1px solid gray;
+	margin-bottom: 5px;
+}
